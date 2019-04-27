@@ -11,3 +11,6 @@ In this directory, you will find the source code for the Auth1 Python client lib
 In this directory, you will find the source code for an example project that uses the Auth1 service for its authentication. This example project is written in Python Flask and uses the auth1api client library. Additionally, this example project showcases login, register, and two factor authentication
 #### auth1release/
 In this directory, you will find all the files needed to run auth1. Specifically, there is a docker-compose.yml along with 3 configuration files. With `docker-compose up` you can start up and instance of Auth1 (along with its dependencies) with the settings specified in the configuration files.
+
+## Usage
+In auth1release/, you can run an instance of Auth1 with `docker-compose up`. You can toggle the Auth1 configurations in the files with the .cnf suffix
